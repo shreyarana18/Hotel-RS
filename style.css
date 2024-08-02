@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+a.navbar-brand{
+    margin-right: 0;
+    padding:0;
+}
+
+a img{
+    height: 3rem;
+}
+
+#home img{
+    box-shadow: 1px 1px 20px
+}
+.carousel-item img{
+    height: 200px;
+    width: 300px
+}
+
+.container-fluid{
+    margin-bottom: 50px;
+}
+
+.container-fluid h2{
+    /* text-decoration: underline; */
+    text-align: center;
+    color: aliceblue;
+    font-size:50px;
+    font-family: Dancing Script;
+}
+
+
+
+.facilities{
+    /* max-width:100%; */
+    /* height:auto; */
+    background-image: linear-gradient(rgba(77, 77, 86, 0.714),rgba(28, 67, 79, 0.5)), url("./img/Hotel_Images/carousel_bg.jpg");
+    background-size: cover;
+
+    
+}
+
+.carousel-inner h3{
+    margin-left:20px;
+    color:aliceblue
+}
+
+div .images{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.contact-form{
+    height:80vh;
+}
+.contact-us{
+    display:flex;
+    color: white;
+
+    
+}
+.contact-us svg{
+    margin-top: 15px;
+    
+}
+
+
+.contact-form .form-signin{
+    width:40%;
+    
+}
+
+
+.contact-form{
+    background-image:linear-gradient(rgba(198, 192, 192, 0.338), rgba(42, 42, 51, 0.738), rgba(42, 42, 51, 0.738));
+    background-size: cover;
+}
