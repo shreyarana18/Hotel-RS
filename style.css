@@ -70,7 +70,14 @@ div .images{
 
 .contact-form .form-signin{
     width:60%;
-    
+    margin-left: 20%;
+}
+
+@media (max-width:576px){
+    .contact-form .form-signin{
+        width:90%;
+        margin:5%;
+    }
 }
 
 
