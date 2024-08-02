@@ -69,8 +69,8 @@ div .images{
 
 
 .contact-form .form-signin{
-    width:40%;
-    
+    max-width:60%;
+    min-width:40%;
 }
 
 
